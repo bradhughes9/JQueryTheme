@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Homework 1</title>
+		<link rel="stylesheet" href="css/themes/theme.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+	</head>
+	
+	<div data-role="page" id="page1" data-theme="a" >
+		<div data-role="header">
+			<h1 style="white-space:normal">What is Responsive Web Design?</h1>
+		</div>
+		
+		<div data-role="content" class="ui-content">
+			<p>In Responsive Web Design the goal is to make your website flexible. When I say flexible what I mean is that you want to be able to view your website on a desktop the same way that you can
+			view it on a mobile device such as a cell phone or tablet. In order to apply responsive web design to your websites you just need to apply CSS to certain parts of your page and include some 
+			media queries. Doing this will allow your content on your website to shrink or expand with the varying sizes in viewports from devices.
+			</p>
+		</div>
+		
+		<div data-role="header">
+			<h2>Principles</h2>
+		</div>
+		
+		<div data-role="content" class="ui-content">
+			<p>Grid View is one of the most important principles in webdesign, and it's a fairly simple method. Grid View is when you design your website to be set in a grid like design using columns. To do this you will
+			Set a class on each div that you will want to make a different coulmn and assaign it the percentage of the width of the webpage for desired size. You can do this as many times as you want but the more columns you
+			have the smaller each column will be. Each column does not have to be the same width for example you could have one column set to 80% and another set to 20%, or have two columns each set to 50%. Below is an exmaple
+			of a Grid View with 12 different columns from <a href="https://www.w3schools.com/css/css_rwd_intro.asp">W3schools.</a>
+			</p>
+		</div>
+		
+		<div data-role="content" class="ui-content">
+			<img src="./images/grid.png" alt="Grid View" title="Grid View" width="100%">
+		</div>
+		
+		<div data-role="content" class="ui-content">
+			<p>
+			Having your iamges flexible as well is another important part of making a website Responsive. When your page shrinks down to a mobile device's viewport and all the content on your page shrinks except for
+			the images on your page, it will look very odd. You can make images flexable the same way you make your page flexible by adjusting the width to a percentage and the height to auto. This will allow your iamge to scale
+			 witht eh height and width responsively. There is another way to make your images responsive by using the max-width setting, which will shrink the image but never make the image larger than it's original size.
+			</p>
+			
+			<p>
+			Media Queries are very essential for web designers when building Responsive Web pages, because they can have the website automatically switch to a different layout that they design all depending on the 
+			 viewers screen size. This makes is very easy for a web designer to choose what the content will look like each different screen size. They can choose to the orientation of the page, screen resolution, color, and
+			  even hide iamges.
+			</p>
+		
+		</div>
+
+		
+		<div data-role="header">
+			<h2>Sources</h2>
+		</div>
+		
+		<div data-role="content" class="ui-content">
+			<ul data-role="list-view">
+				<li><a href="https://www.w3schools.com/css/css_rwd_intro.asp">W3schools</a></li>
+				<li><a href="https://www.smartinfosys.net/blog/10-important-responsive-web-design-principles-from-experts/">smartinfosys.net</a></li>
+				<li><a href="https://www.webfx.com/blog/web-design/understanding-the-elements-of-responsive-web-design/">Webfx.com</a></li>
+			</ul>
+		</div>	
+		
+		<div data-role="footer" class="footer">
+			<footer>
+				<p style="text-align:center">
+				Copyright Bradley Hughes
+				b.hughes14@mail.lorainccc.edu
+				</p>
+			</footer>
+		</div>
+		
+	
+	</div>
+</html>
